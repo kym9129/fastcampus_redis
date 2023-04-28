@@ -1,0 +1,8 @@
+spring:
+  session:
+    storage-type: redis
+  cache:
+    type: redis # cacheManager로 redis 사용하기
+  redis:
+    host: localhost
+    port: 6379
